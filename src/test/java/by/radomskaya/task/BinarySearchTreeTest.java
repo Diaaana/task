@@ -15,6 +15,7 @@ public class BinarySearchTreeTest {
         tree.add(4, 5);
     }
 
+
     @Test
     public void testTree() {
         tree.print();
