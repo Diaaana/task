@@ -22,4 +22,5 @@ public class BinarySearchTreeTest {
         tree.remove(2);
         Assert.assertNull(tree.search(2));
     }
+
 }
