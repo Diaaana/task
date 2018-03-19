@@ -55,7 +55,7 @@ class BinarySearchTree {
             remove(t.left, key);
         } else if (key > t.key) {
             remove(t.right, key);
-        } else if(t.left != null && t.right != null) {
+        } else if (t.left != null && t.right != null) {
             Node node = t.right;
             while (node.left != null) {
                 node = node.left;
@@ -77,7 +77,7 @@ class BinarySearchTree {
     }
 
     Node search(Node t, int key) {
-        if (t == null || t.key  == key) {
+        if (t == null || t.key == key) {
             return t;
         }
         if (key < t.key) {
